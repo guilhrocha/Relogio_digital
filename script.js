@@ -23,7 +23,7 @@ const relogio2 = setInterval(function time() {
     var hor = dateToday.getHours();
     var minu = dateToday.getMinutes();
     var segu = dateToday.getSeconds();
-    var horario = hor + 4
+    var horario = hor + 3
 
     horas2.textContent = horario;
     minutos2.textContent = minu;

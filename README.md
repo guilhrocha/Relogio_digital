@@ -9,3 +9,6 @@
 * Time in Brasilia, DF
 * Time in London, United Kingdom
 * Time in Washington, D.C., District of Columbia, United States
+
+![relogio digital](https://user-images.githubusercontent.com/105439209/199593930-0938ee12-a3ee-435e-802b-ca6bbd7e3226.png)
+

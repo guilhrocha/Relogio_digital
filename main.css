@@ -4,8 +4,10 @@
 }
 
 body {
-    height: 130vh;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);    justify-content: center;
+    height: 98vh;
+    background-color: #285561;
+    background: linear-gradient(90deg, #285561, #5ECAE6);
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
@@ -25,6 +27,11 @@ section {
     margin-top: 3vh;
 }
 
+section h1 {
+    font-size: 25pt;
+    margin: 1%;
+}
+
 .relogio {
     display: flex;
     justify-content: space-around;
@@ -42,7 +49,7 @@ section {
     display: flex;
     align-items: center;
     background: black;
-    color: white;
+    color: gray;
     border-radius: 20px;
     justify-content: center;
     flex-direction: column;
@@ -104,7 +111,7 @@ footer {
     text-align: center;
     align-items: center;
     background: transparent;
-    box-shadow: 2px 8px 10px #020d12;
+    box-shadow: 5px 8px 10px #020d12;
 }
 
 .relogio2 {
@@ -115,46 +122,27 @@ footer {
     margin-top: 2vh;
 }
 
-@media (max-width: 395px) {
-    body {
-        height: 125vh;
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left: 6%;
-    }
-    header {
-        font-size: 20px;
-        margin-top: 10%;
-    }
-    .relogio {
-        width: 95%;
-        border-radius: 20px;
-        margin-left: -2%;
-    }
+@media (max-width: 530px) {
     .ajuste {
-        width: 100px;
-        height: 150px;
+        width: 25vw;
+        height: 15vh;
+        display: flex;
+
+    }
+
+    .relogio {
+        width: 92vw;
+        height: 18vh;
     }
 
     .relogio2 {
-        width: 95%;
-        border-radius: 20px;
-        margin-left: -2%;
-    }
-    .ajuste2 {
-        width: 100px;
-        height: 150px;
+        width: 92vw;
+        height: 18vh;
     }
 
     .relogio3 {
-        width: 95%;
-        border-radius: 20px;
-        margin-left: -2%;
-    }
-    .ajuste3 {
-        width: 90px;
-        height: 135px;
+        width: 92vw;
+        height: 18vh;
     }
 }
+
